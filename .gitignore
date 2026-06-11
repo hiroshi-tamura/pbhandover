@@ -1,0 +1,17 @@
+node_modules/
+
+# Local handover runtime state (created when dogfooding pbhandover in this repo)
+.pbhandover/
+.pbclaude-handover/
+.pbcodex-handover/
+.claude/settings.local.json
+.codex/hooks.json
+
+# Local-only handover notes (never pushed)
+/HANDOVER.md
+HANDOVER.md.bak
+HANDOVER.md.tmp.*
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
